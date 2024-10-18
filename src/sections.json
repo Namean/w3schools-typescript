@@ -1,0 +1,21 @@
+[
+  "ts-home.md",
+  "ts-introduction.md",
+  "ts-get-started.md",
+  "ts-simple-types.md",
+  "ts-special-types.md",
+  "ts-arrays.md",
+  "ts-object-types.md",
+  "ts-enums.md",
+  "ts-aliases-&-interfaces.md",
+  "ts-union-types.md",
+  "ts-functions.md",
+  "ts-casting.md",
+  "ts-classes.md",
+  "ts-basic-generics.md",
+  "ts-utility-types.md",
+  "ts-keyof.md",
+  "ts-null.md",
+  "ts-definitely-typed.md",
+  "ts-5-updates.md"
+]
