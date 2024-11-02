@@ -1,7 +1,14 @@
 # TypeScript Tuples
 
-- Typed Arrays
-- Readonly Tuple
+- [Typed Arrays](#typed-arrays)
+- [Readonly Tuple](#readonly-tuple)
+- [Named Tuples](#named-tuples)
+- [Destructuring Tuples](#destructuring-tuples)
+
+
+
+
+
 
 
 ## Typed Arrays
@@ -60,3 +67,28 @@ const ourReadonlyTuple: readonly [number, boolean, string] = [5, true, 'The Real
 // throws error as it is readonly.
 ourReadonlyTuple.push('Coding God took a day off');
 ```
+
+
+
+## Named Tuples
+
+**Named tuples** allow us to provide context for out values at each index.
+
+```ts
+const graph: [x: number, y: number] = [55.2, 41.3];
+```
+
+> **Named tuples** provide more context for what our index values represent.
+
+
+## Destructuring Tuples
+
+Since tuples are arrays we can also destructure them.
+
+
+```ts
+const graph: [number, number] = [55.2, 41.3];
+const [x, y] = graph;
+```
+
+> To review destructuring check it out [here](https://www.w3schools.com/react/react_es6_destructuring.asp).

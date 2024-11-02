@@ -3,11 +3,6 @@
 - Readonly
 - Type Inference
 
-
-
-
-
-
 ```ts
 const names: string[] = [];
 
